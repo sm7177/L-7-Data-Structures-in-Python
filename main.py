@@ -1,8 +1,11 @@
 # Activity-1
-# list=["apple","mango","banana","orange"]
-# print("length of list:",len(list))
+list=["apple","mango","banana","orange"]
+print("length of list:",len(list))
 
-# print("first element:", list[0])
+print("first element:", list[0])
+
+list[0]="guava"
+print(list)
 
 # print("last element:", list[-1])
 
@@ -49,12 +52,12 @@
 
 
 
-#Activity-3
-def test(list):
-    result={}
-    for item in list:
-        result[item[0]]=item[1:]
-    return result
-students=[[1,"ram",19],[2,"shyam",18],[3,"sita",19],[4,"ruby",17],[5,"red",20]]
-print(students)
-print(test(students))
+# #Activity-3
+# def test(list):
+#     result={}
+#     for item in list:
+#         result[item[0]]=item[1:]
+#     return result
+# students=[[1,"ram",19],[2,"shyam",18],[3,"sita",19],[4,"ruby",17],[5,"red",20]]
+# print(students)
+# print(test(students))
